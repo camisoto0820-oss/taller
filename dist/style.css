@@ -1,0 +1,29 @@
+div{
+  background-color:#fac5f2;
+width:150px;
+  height:150px;
+border-radius: 150px;
+  position:relative;
+ top: 200px;
+left:2000px;
+animation-name:circulito;
+  animation-duration:7s;
+  animation-iteration-count:infinite;
+}
+
+  @keyframes circulito{
+    0%{background-color:#fac5f2;left:0px}
+    100%{background-color:#8ceeff}
+  }
+.circulo2{
+  background-color:#fac5f2;
+width:100px;
+  height:100px;
+border-radius: 120px;
+  position:relative;
+ top: 100px;
+left:2000px;
+animation-name:circulito;
+  animation-duration:7s;
+  animation-iteration-count:infinite;
+}
